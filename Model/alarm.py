@@ -29,6 +29,7 @@ def overlap(start1, end1, start2, end2):
         return (C[1] - A[1]) * (B[0] - A[0]) > (B[1] - A[1]) * (C[0] - A[0])
     
     def intersect(A, B, C, D):
+        # Example: StartPoint1 is on left of startPoint2. But at the endpoints, startpoint1 is on the right of endpoint2. This means somewhere, an intersection occured
         return ccw(A, C, D) != ccw(B, C, D) and ccw(A, B, C) != ccw(A, B, D)
     
     return intersect(start1, end1, start2, end2)
