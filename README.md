@@ -21,7 +21,7 @@ From this, we used mathematics to estimate direction and speed in the frame, the
 <pre>duration = 3000</pre>
 <pre>freq = 440</pre>
 <pre>winsound.Beep(freq,duration)</pre>
-<pre>...Keep the rest of the code in alarm.py the same/pre>
+<pre>...Keep the rest of the code in alarm.py the same
   
 pip install requirements.txt
 python main.py
