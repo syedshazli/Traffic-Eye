@@ -3,4 +3,5 @@ Leveraging sensor technology & computer vision, our project creates a real-time 
 
 # To run:
 cd 'working model'
+\n
 python main.py
