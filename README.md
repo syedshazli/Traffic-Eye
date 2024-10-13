@@ -4,8 +4,24 @@ Leveraging sensor technology & computer vision, our project creates a real-time 
 From this, we used mathematics to estimate direction and speed in the frame, then we added an algorithm to detect if estimated paths crossed, then added support so that it works with hardware, as well as building the stand-alone device. 
 
 
-# To run:
+# To run (MacOS Version):
 <pre>Clone the repository</pre>
 <pre>cd 'working model'</pre>
+<pre>pip install requirements.txt</pre>
 <pre>python main.py</pre>
 
+# To Run Windows OS Version:
+<pre>Clone the repository</pre>
+<pre>cd 'working model'</pre>
+<pre>Edit file alarm.py</pre>
+<pre>Go into alarm.py</pre>
+<pre>Replace the import statements and soundAlarm function with the following</pre>
+<pre>import winsound</pre>
+<pre>def soundAlarm():/pre>
+<pre>duration = 3000</pre>
+<pre>freq = 440</pre>
+<pre>winsound.Beep(freq,duration)</pre>
+<pre>...Keep the rest of the code in alarm.py the same/pre>
+  <pre></pre>
+<pre>pip install requirements.txt</pre>
+<pre>python main.py</pre>
