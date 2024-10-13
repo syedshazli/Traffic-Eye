@@ -5,6 +5,7 @@ From this, we used mathematics to estimate direction and speed in the frame, the
 
 
 # To run:
-cd 'working model'
-<pre></pre>
-python main.py
+<pre>Clone the repository</pre>
+<pre>cd 'working model'</pre>
+<pre>python main.py</pre>
+
